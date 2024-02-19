@@ -1,4 +1,9 @@
 from tabulate import tabulate
+import os
+
+def clear_screen():
+    os.system("cls")    
+
 def es_primo(num):
     for n in range(2, num):
         if num % n == 0:
@@ -28,5 +33,5 @@ def descomponer(num: int):
     print("Numero", num)
     print(tabulate(descomposition, headers=["Division", "Divisor"], tablefmt="grid"))
 num = input("Ingresa el numero que deseas descomponer: ")
-
+clear_screen()
 descomponer(int(num))
