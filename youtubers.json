@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "FRIKIdelTO",
+        "edad": 35,
+        "altura": 1.79,
+        "aficciones": [
+            "videojuegos",
+            "aprender programación",
+            "enseñar programación"
+        ],
+        "otros": "semental",
+        "rrss": {
+            "instagram": true,
+            "tiktok": false
+        }
+    },
+    {
+        "nombre": "Rubius",
+        "edad": 31,
+        "altura": 1.85,
+        "aficciones": [
+            "minecraft",
+            "twitch",
+            "Andorra"
+        ],
+        "otros": null,
+        "rrss": {
+            "instagram": true,
+            "tiktok": true
+        }
+    }
+]

@@ -1,6 +1,7 @@
 import random
 import platform
 import os
+import json
 
 # Escribir un juego para adivinar una palabra con las palabras desordenadas 
 
