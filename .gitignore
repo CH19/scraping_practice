@@ -1,2 +1,3 @@
 *.hmtl
 *.html
+__pycache__
