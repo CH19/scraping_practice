@@ -18,10 +18,7 @@ def get_html(url: str):
     return html
 
 # Obtener un archivo binario de una pagina web
-def getFile(url: str):
-    req = urlopen(url)
-    file = req.read()
-    return file
+
 
 def make_file_fromhtml():
     url = input("Escribe el link para obtener la data: ")
