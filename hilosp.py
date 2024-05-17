@@ -20,7 +20,6 @@ if __name__ == "__main__":
     imprimir = threading.Thread(name="impresor", target=print, args=("Hola muchacho comoe sta",))
 
     print(f"{threading.main_thread().ident} {threading.main_thread()} ")
-    input("Presiona enter para contiunuar")
     limpiarPantalla()
     # inciamos los hilos 
     h1.start()
